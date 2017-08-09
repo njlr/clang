@@ -1,0 +1,8 @@
+[project]
+  ignore = .git
+
+[repositories]
+  llvm = external/llvm
+
+[cxx]
+  cxxflags = -std=c++14

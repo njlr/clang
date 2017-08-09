@@ -1,0 +1,15 @@
+cxx_binary(
+  name = 'clang-interpreter',
+  srcs = glob([
+    '*.cpp',
+  ]),
+  linker_flags = [
+    '-lz',
+    '-lncurses',
+    '-ldl',
+  ],
+  deps = [
+    '//:clang',
+    'llvm//:x86',
+  ],
+)

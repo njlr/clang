@@ -1,0 +1,4 @@
+[submodule "external/llvm"]
+	path = external/llvm
+	url = git@github.com:njlr/llvm.git
+	branch = improvement/buck-monolithic
